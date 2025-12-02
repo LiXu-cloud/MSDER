@@ -1,0 +1,8 @@
+# SAC (Maximum) for DMC environments.
+
+include 'config/online/sac.gin'
+
+# SAC/REDQ MaximumDiversity args.
+redq_sac.vector_selection = 1
+redq_sac.index_type = 2
+redq_sac.normalization = 1
